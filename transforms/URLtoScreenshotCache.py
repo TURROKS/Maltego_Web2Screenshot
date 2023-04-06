@@ -25,9 +25,10 @@ def api_info(api_url, api):
         return parsed
 
 
-@registry.register_transform(display_name="Greet Person", input_entity="maltego.Phrase",
-                             description='Returns a Phrase greeting a Person on the Graph.',
-                             output_entities=["maltego.Phrase"])
+@registry.register_transform(display_name="To Screenshot - Cache [API Flash]", input_entity="maltego.URL",
+                             description='Take a cache screenshot from an URL, will consume 1 credit if not available '
+                                         'in cache.',
+                             output_entities=["maltego.Image"])
 class URLtoScreenshotCache(DiscoverableTransform):
 
     @classmethod
