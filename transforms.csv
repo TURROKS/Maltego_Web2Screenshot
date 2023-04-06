@@ -1,0 +1,5 @@
+Owner,Author,Disclaimer,Description,Version,Name,UIName,URL,entityName,oAuthSettingId,transformSettingIDs,seedIDs
+ACME Corporation,John Doe <johndoe@acme.com>,,Returns a Phrase greeting a Person on the Graph.,0.1,urltoscreenshotcache,Greet Person,https://transforms.acme.com/run/urltoscreenshotcache,maltego.Phrase,,,demo
+ACME Corporation,John Doe <johndoe@acme.com>,,Returns a Phrase greeting a Person on the Graph.,0.1,urltoscreenshotcachexl,Greet Person,https://transforms.acme.com/run/urltoscreenshotcachexl,maltego.Phrase,,,demo
+ACME Corporation,John Doe <johndoe@acme.com>,,Returns a Phrase greeting a Person on the Graph.,0.1,urltoscreenshotfresh,Greet Person,https://transforms.acme.com/run/urltoscreenshotfresh,maltego.Phrase,,,demo
+ACME Corporation,John Doe <johndoe@acme.com>,,Returns a Phrase greeting a Person on the Graph.,0.1,urltoscreenshotfreshxl,Greet Person,https://transforms.acme.com/run/urltoscreenshotfreshxl,maltego.Phrase,,,demo
