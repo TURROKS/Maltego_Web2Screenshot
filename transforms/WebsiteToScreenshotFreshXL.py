@@ -25,9 +25,9 @@ def api_info(api_url, api):
         return parsed
 
 
-@registry.register_transform(display_name="Greet Person", input_entity="maltego.Phrase",
-                             description='Returns a Phrase greeting a Person on the Graph.',
-                             output_entities=["maltego.Phrase"])
+@registry.register_transform(display_name="To Screenshot XL - Live [API Flash]", input_entity="maltego.Website",
+                             description='Take a live full page screenshot from an Website, will consume 1 credit.',
+                             output_entities=["maltego.Image"])
 class WebsiteToScreenshotFreshXL(DiscoverableTransform):
 
     @classmethod
