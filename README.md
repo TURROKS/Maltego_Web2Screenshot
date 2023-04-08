@@ -1,7 +1,9 @@
 # Maltego Web2Screenshot Transforms
 
-Introducing the Maltego Web2Screenshot Transforms - These enable you to capture screenshots from both websites and URLs 
-in a secure and anonymous manner. As an investigator, I developed these transforms to enhance my operational security 
+The Maltego Web2Screenshot Transforms allow you to capture screenshots from both websites and URLs 
+in a secure and anonymous manner. 
+
+I developed these transforms to enhance my operational security 
 (OPSEC) by avoiding exposing my public or VPN's IP address. With these Transforms, you can generate high-quality 
 screenshots while keeping your identity and location hidden. 
 
