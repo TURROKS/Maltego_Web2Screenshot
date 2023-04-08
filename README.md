@@ -80,3 +80,12 @@ submenu, making them easier to find and use.
 
 If you are a more advanced user and want to manually add the Transforms to your client, you can follow this 
 [instructions](https://docs.maltego.com/support/solutions/articles/15000017605-local-transforms-example-#adding-the-transform-to-maltego-0-6)
+
+**Note:** At the time of writing the Transforms I noticed the URL Entity's property that hold the url has changed it's 
+unique name from url to theurl, if you don't get any results when running the URL to Screenshot Transforms could be due 
+that change.
+
+To fix this issue you can try refreshing your client or simply change the property name called **input_url** inside the 
+Transforms (it's below the line where you added your API Key)
+
+Happy OSINTing!
