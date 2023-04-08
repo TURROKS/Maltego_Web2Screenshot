@@ -1,9 +1,14 @@
 # Maltego Web2Screenshot Transforms
 
-The Maltego Web2Screenshot Transforms allow you to generate screenshots from both Websites and URLS.
+Introducing the Maltego Web2Screenshot Transforms - These enable you to capture screenshots from both websites and URLs 
+in a secure and anonymous manner. As an investigator, I developed these transforms to enhance my operational security 
+(OPSEC) by avoiding exposing my public or VPN's IP address. With these Transforms, you can generate high-quality 
+screenshots while keeping your identity and location hidden. 
 
-To use these Transforms you will need an API Key from [API Flash](https://apiflash.com/) they have a Free tier that
-gives you 100 Credits per month (1 credit per screenshot).
+To use the Maltego Web2Screenshot Transforms, simply obtain an API Key from API Flash's Free tier, which provides 100 
+credits per month (1 credit per screenshot). 
+
+Experience the power and convenience of the Web2Screenshot Transforms for your investigative needs.
 
 ## The Transforms
 
