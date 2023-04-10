@@ -57,6 +57,10 @@ Zooming in will allow you to view the capture as if it was the original site's s
 
 ## Installation
 
+Install the required libraries by running
+
+`pip install -r requirements.txt`
+
 A Maltego configuration file **Web2ScreenshotTransforms.mtz** has been included under the misc folder, you can simply 
 import the file into your client by going to Import | Export > Import Config > Select mtz file.
 
