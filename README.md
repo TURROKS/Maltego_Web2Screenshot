@@ -77,8 +77,8 @@ Go to the Transforms Tab and follow the below steps for each Transform
 
 ![Configurations.png](misc/Configurations.png)
 
-Finally, you will need to manually add your API Key to the Transforms. Simply locate the Transform under the transforms
-folder, open the file and add your key.
+Finally, you will need to add your API Key for the Transforms. Simply locate the .env file in the root directory (Enable 
+show Hidden files if using your OS explorer) and add your key next to the API_KEY without spaces.
 
 ![api_keys.png](misc/api_keys.png)
 
