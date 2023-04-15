@@ -5,7 +5,7 @@ from urllib import parse
 from dotenv import load_dotenv
 import requests
 
-from extensions import registry
+from extensions import registry, web2screenshot_set
 from maltego_trx.maltego import MaltegoMsg, MaltegoTransform
 from maltego_trx.transform import DiscoverableTransform
 from maltego_trx.overlays import OverlayType, OverlayPosition
@@ -33,7 +33,8 @@ def api_info(api):
 
 @registry.register_transform(display_name="To Screenshot XL - Live [API Flash]", input_entity="maltego.Website",
                              description='Take a live full page screenshot from an Website, will consume 1 credit.',
-                             output_entities=["maltego.Image"])
+                             output_entities=["maltego.Image"],
+                             transform_set=web2screenshot_set)
 class WebsiteToScreenshotFreshXL(DiscoverableTransform):
 
     @classmethod
