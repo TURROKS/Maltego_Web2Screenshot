@@ -61,32 +61,33 @@ Install the required libraries by running
 
 `pip install -r requirements.txt`
 
-A Maltego configuration file **Web2ScreenshotTransforms.mtz** has been included under the misc folder, you can simply 
-import the file into your client by going to Import | Export > Import Config > Select mtz file.
+A Maltego configuration file **web2screenshot.mtz** can be automatically generated to easily import the Transforms and 
+Transform Set into your client.
+
+First you need to update your ENV file with your API Key and the Path to your Python Interpreter.
+
+1. Open the project's directory "Maltego_Web2Screenshot".
+2. Locate the **.env** file (Enable show Hidden files if using your OS explorer) and add your key and the path to 
+your Python interpreter without spaces.
+
+![interpreter.png](misc%2Finterpreter.png)
+
+Now we are ready to generate the web2screenshot.mtz configuration file
+
+1. Open your Terminal and go to your project's main directory.
+2. Run `python3 project.py list`
+
+![project.png](misc%2Fproject.png)
+
+That's all you need, you should now have the new configuration file inside your project.
+
+![conf_file.png](misc%2Fconf_file.png)
+
+Simply import the file into your client by going to Import | Export > Import Config > Select mtz file.
 
 ![import.png](misc/import.png)
 
-Once the file has been imported, you will need to update the Command line and Working directory paths for the new 
-Transforms.
-
-Go to the Transforms Tab and follow the below steps for each Transform
-
-1. Click Transform Manager
-2. Search for Flash
-3. Select one Transform at a time to perform step 4
-4. Update the following fields
-   - Command line: Path to your Python interpreter
-   - Working directory: Path to this repository in your machine (should include the folder name) e.g. 
-   TURROKS/Documents/Maltego_Web2Screenshot
-
-![Configurations.png](misc/Configurations.png)
-
-Finally, you will need to add your API Key for the Transforms. Simply locate the .env file in the root directory (Enable 
-show Hidden files if using your OS explorer) and add your key next to the API_KEY without spaces.
-
-![api_keys.png](misc/api_keys.png)
-
-The configuration file includes a Transform set called "Web2Screenshot" which will arrange your new Transforms into a 
+Your new configuration file includes a Transform set called "Web2Screenshot" which will arrange your new Transforms into a 
 submenu, making them easier to find and use.
 
 If you are a more advanced user and want to manually add the Transforms to your client, you can follow this 
