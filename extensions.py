@@ -1,4 +1,4 @@
-from maltego_trx.decorator_registry import TransformRegistry
+from maltego_trx.decorator_registry import TransformRegistry, TransformSet
 
 registry = TransformRegistry(
         owner="ACME Corporation",
@@ -8,6 +8,8 @@ registry = TransformRegistry(
 )
 
 # The rest of these attributes are optional
+
+web2screenshot_set = TransformSet("Web2Screenshot", "Web2Screenshot Transforms")
 
 # metadata
 registry.version = "0.1"

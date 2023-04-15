@@ -1,3 +1,4 @@
+import os
 import sys
 
 import transforms
@@ -10,6 +11,7 @@ register_transform_classes(transforms)
 
 registry.write_transforms_config()
 registry.write_settings_config()
+registry.write_local_mtz("./web2screenshot.mtz", command=os.getenv("INTERPRETER"))
 
 if __name__ == '__main__':
     handle_run(__name__, sys.argv, application)
