@@ -11,7 +11,7 @@ register_transform_classes(transforms)
 
 registry.write_transforms_config()
 registry.write_settings_config()
-registry.write_local_mtz("./web2screenshot.mtz", command=os.getenv("INTERPRETER"))
+registry.write_local_mtz("./Web2Screenshot.mtz", command=os.getenv("INTERPRETER"), debug=False)
 
 if __name__ == '__main__':
     handle_run(__name__, sys.argv, application)
