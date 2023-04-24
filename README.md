@@ -101,3 +101,5 @@ To fix this issue you can try refreshing your client or simply change the proper
 Transforms (it's below the line where you added your API Key)
 
 Happy OSINTing!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K4KOFV4)
